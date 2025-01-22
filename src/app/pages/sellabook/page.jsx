@@ -43,6 +43,7 @@ const SellABook = () => {
             src={imageUrl}
             // src={"https://res.cloudinary.com/doz05sjtw/image/upload/v1737472263/psycho_of_money_smd0pj.jpg"}
             alt="book image"
+            cloudName={process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}
           />
           :
           <CldUploadWidget
