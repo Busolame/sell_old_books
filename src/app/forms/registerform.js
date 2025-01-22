@@ -25,7 +25,7 @@ const RegisterForm = ({ buttonLoading, checked, handleCheck, registerUser }) => 
                     value={values.fullname}
                     onChange={handleChange}
                     onBlur={handleBlur}
-                    placeholder='fullname'
+                    placeholder="fullname"
                     className="placeholder:italic outline-none bg-appyellow"
                   />
                 </div>
@@ -44,7 +44,7 @@ const RegisterForm = ({ buttonLoading, checked, handleCheck, registerUser }) => 
                     value={values.username}
                     onChange={handleChange}
                     onBlur={handleBlur}
-                    placeholder='username'
+                    placeholder="username"
                     className="placeholder:italic outline-none bg-appyellow"
                   />
                 </div>
@@ -63,7 +63,7 @@ const RegisterForm = ({ buttonLoading, checked, handleCheck, registerUser }) => 
                     value={values.email}
                     onChange={handleChange}
                     onBlur={handleBlur}
-                    placeholder='email'
+                    placeholder="email"
                     className="placeholder:italic outline-none bg-appyellow"
                   />
                 </div>
@@ -82,7 +82,7 @@ const RegisterForm = ({ buttonLoading, checked, handleCheck, registerUser }) => 
                     value={values.password}
                     onChange={handleChange}
                     onBlur={handleBlur}
-                    placeholder='password'
+                    placeholder="password"
                     className="placeholder:italic outline-none bg-appyellow"
                   />
                 </div>
@@ -101,7 +101,7 @@ const RegisterForm = ({ buttonLoading, checked, handleCheck, registerUser }) => 
                     value={values.repeatpassword}
                     onChange={handleChange}
                     onBlur={handleBlur}
-                    placeholder='repeat password'
+                    placeholder="repeat password"
                     className="placeholder:italic outline-none bg-appyellow"
                   />
                 </div>

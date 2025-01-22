@@ -26,13 +26,18 @@ const AppPayment = ({ params }) => {
   }
 
   const PaystackHookExample = () => {
-    
-    const makePayment = (values) => {
-      const initializePayment = usePaystackPayment({...config, email: values.email});
-      
-      initializePayment(onSuccess, onClose)
+    const initializePayment = usePaystackPayment({...config, email: 'johndoe@gmail.com'});
 
-  }
+  const makePayment = (values) => {
+    initializePayment(onSuccess, onClose);
+  };
+    
+  //   const makePayment = (values) => {
+  //     const initializePayment = usePaystackPayment({...config, email: values.email});
+      
+  //     initializePayment(onSuccess, onClose)
+
+  // }
 
     return (
       <div>
