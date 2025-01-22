@@ -117,7 +117,7 @@ const RegisterForm = ({ buttonLoading, checked, handleCheck, registerUser }) => 
           handleCheck={handleCheck}
           text={
             <div>
-              <span>I hereby agree to company's Terms and Condition</span>
+              <span>I hereby agree to company&apos;s Terms and Condition</span>
               <br/>
               <span>and with the Privacy Policy</span>
             </div>
